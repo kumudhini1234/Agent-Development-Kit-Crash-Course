@@ -63,6 +63,8 @@ def before_tool_callback(
         print(f"[Callback] Modified args: {args}")
         return None
 
+
+
     # Skip the call completely for restricted countries
     if (
         tool_name == "get_capital_city"
