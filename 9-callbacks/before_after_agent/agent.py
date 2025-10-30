@@ -21,7 +21,8 @@ def before_agent_callback(callback_context: CallbackContext) -> Optional[types.C
         callback_context: Contains state and context information
 
     Returns:
-        None to continue with normal agent processing
+        
+    None to continue with normal agent processing
     """
     # Get the session state
     state = callback_context.state
