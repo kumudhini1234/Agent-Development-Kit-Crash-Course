@@ -27,6 +27,9 @@ def before_agent_callback(callback_context: CallbackContext) -> Optional[types.C
     # Get the session state
     state = callback_context.state
 
+
+
+
     # Record timestamp
     timestamp = datetime.now()
 
